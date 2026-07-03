@@ -58,3 +58,28 @@ To run this project, you will need **Python 3** installed on your machine, along
 Install the required dependency using pip:
 ```bash
 pip install Pillow
+
+💻 Usage Guide
+Ensure that your cover image (e.g., sample.jpg) is located in the same directory as the scripts before running them.
+
+1. Encoding a Message
+To hide a message inside an image, run the encoder script from your terminal:
+
+Bash
+## python encoder.py
+The script will prompt you for an input image name.
+
+Enter your secret message.
+
+Provide a name for the output file. The script will generate a new .png file containing your hidden text.
+
+2. Decoding a Message
+To extract a hidden message from a stego-image, run the decoder script:
+
+Bash
+ ## python decoder.py
+The script will prompt you for the name of the stego-image (e.g., secret_output.png).
+
+It will extract the bits, translate them back into characters, and print your hidden message to the terminal!
+
+Developed by shubh shanker shukla / shubhshukla098-design]
